@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Desk2Vid 🎥</title>
+  <link rel="stylesheet" href="index.css">
+
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+
+  <!-- dark mode enable -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
+
+  <!-- all the logic is implemented in here -->
+  <script defer src="./recoder.js"></script>
+</head>
+
+<body>
+  <p class="uk-text-large uk-text-emphasis uk-text-bolder uk-text-center">Desk2Vid 🎥</p>
+  <p class="uk-text-small uk-text-muted uk-text-lighter uk-text-center"></p>
+
+  <!-- for render the screen -->
+  <video></video>
+
+  <!-- recoder controller buttons -->
+  <p class="uk-flex uk-flex-center uk-margin">
+    <button class="uk-button uk-button-secondary" id="btnStart">Start</button>
+    <button class="uk-button uk-button-danger" id="btnStop">Stop</button>
+  </p>
+
+  <hr>
+
+  <!-- select the video source button -->
+  <p class="uk-flex uk-flex-center uk-margin">
+    <button id="btnSelectSource" class="uk-button uk-button-default">Select Source</button>
+  </p>
+
+  <script>
+    new Darkmode().showWidget();
+  </script>
+</body>
+
 </html>
