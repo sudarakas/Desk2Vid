@@ -2,8 +2,8 @@
 Simple screen recorder using Electron
 
 # How to run
-clone the repo https://github.com/sudarakas/Desk2Vid.git
-run npm start
+-clone the repo https://github.com/sudarakas/Desk2Vid.git
+-run npm start
 
 # Screenshot
 
