@@ -7,7 +7,7 @@ run npm start
 
 # Screenshot
 
-![alt 1](https://prnt.sc/t4t84h)
-![alt 2](https://prnt.sc/t4t5hi)
-![alt 3](https://prnt.sc/t4t6z9)
-![alt 4](https://prnt.sc/t4t78b)
+![alt 1](https://github.com/sudarakas/Desk2Vid/blob/master/screenshot/Screenshot.png)
+![alt 2](https://github.com/sudarakas/Desk2Vid/blob/master/screenshot/Screenshot2.png)
+![alt 3](https://github.com/sudarakas/Desk2Vid/blob/master/screenshot/Screenshot3.png)
+![alt 4](https://github.com/sudarakas/Desk2Vid/blob/master/screenshot/Screenshot4.png)
